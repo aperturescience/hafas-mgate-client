@@ -1,0 +1,20 @@
+{
+  "name": "hafas-mgate-client",
+  "version": "0.1.0",
+  "description": "Hafas MGate API client",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "hafas",
+    "mgate",
+    "nmbs"
+  ],
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "moment-timezone": "^0.5.4",
+    "request": "^2.74.0",
+    "request-promise": "^4.0.2"
+  }
+}
