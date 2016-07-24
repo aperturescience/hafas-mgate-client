@@ -4,12 +4,11 @@ var request = require('request-promise')
 var parse = require('./parse')
 
 var HafasClient = function (opts) {
-
   if (!opts.baseUrl) throw new Error('HafasClient requires "baseUrl"')
-  else this.baseUrl = opts.baseUrl
+  this.baseUrl = opts.baseUrl
 
   if (!opts.auth) throw new Error('HafasClient requires "auth"')
-  else this.auth = opts.auth
+  this.auth = opts.auth
 
   if (!opts.name) throw new Error('HafasClient requires "name"')
   this.clientName = opts.name
